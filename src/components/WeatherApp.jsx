@@ -59,7 +59,6 @@ const WeatherApp = () => {
         boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.2)",
       }}
     >
-      {/* Dark Mode Toggle */}
       <IconButton
         onClick={() => setDarkMode(!darkMode)}
         sx={{ position: "absolute", top: 20, right: 20, color: darkMode ? "#fbc02d" : "#1e88e5" }}
